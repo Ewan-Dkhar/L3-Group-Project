@@ -2,6 +2,10 @@
     font-family: 'JetBrains Mono', 'Arial';
 }
 
+body{
+    background: #fafafa;
+}
+
 .black{
     font-weight: 900;
 }

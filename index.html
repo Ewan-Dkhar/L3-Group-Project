@@ -43,7 +43,7 @@
           <img src="./Public/images/car1.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="...">
 
           <div class="carousel-caption text-start">
-            <h1>Hello</h1>
+            <h1>ML Wing</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolorum omnis placeat quo accusamus neque numquam architecto officia! Aliquam quibusdam consequatur maiores quas dolores sit dolorum explicabo iste earum quam.</p>
           </div>
           
@@ -76,59 +76,65 @@
     </div>
 
     <!-- User Registration Form -->
-     <h2 class="mt-5">User Registration Form</h2>
-     <form action="" class="mb-5" novalidate>
-       <div class="form-floating mb-3">
-         <input type="text" class="form-control" id="floatingName" placeholder="Name" required>
-         <label for="floatingName">Name</label>
-         <div class="invalid-feedback">Invalid Name</div>
-       </div>
-      <div class="form-floating mb-3">
-        <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
-        <label for="floatingEmail">Email address</label>
-        <div class="invalid-feedback">Invalid Email</div>
+     <div class="row">
+      <div class="col-4">
+        <h3 class="mt-5">User Registration Form</h3>
+        <form action="" class="mb-5" novalidate>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingName" placeholder="Name" required>
+            <label for="floatingName">Name</label>
+            <div class="invalid-feedback">Invalid Name</div>
+          </div>
+         <div class="form-floating mb-3">
+           <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
+           <label for="floatingEmail">Email address</label>
+           <div class="invalid-feedback">Invalid Email</div>
+         </div>
+         <div class="form-floating">
+           <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+           <label for="floatingPassword">Password</label>
+           <div class="invalid-feedback">Invalid Password</div>
+         </div>
+         <button class="btn btn-lg btn-dark mt-3 px-5" type="submit">Register</button>
+        </form>
       </div>
-      <div class="form-floating">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
-        <label for="floatingPassword">Password</label>
-        <div class="invalid-feedback">Invalid Password</div>
+      <div class="col">
+        <!-- User Data Table -->
+         <h3 class="mt-5">User Data Table</h3>
+         <table class="table table-dark table-striped mb-5">
+           <thead>
+             <tr>
+               <th>User Id</th>
+               <th>Name</th>
+               <th>Email</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td>101</td>
+               <td>Ewan</td>
+               <td>lci2025011@iiit.ac.in</td>
+             </tr>
+             <tr>
+               <td>102</td>
+               <td>Kunal</td>
+               <td>lci2025006@iiit.ac.in</td>
+             </tr>
+             <tr>
+               <td>103</td>
+               <td>Devesh</td>
+               <td>lci2025005@iiit.ac.in</td>
+             </tr>
+             <tr>
+               <td>104</td>
+               <td>Ayush</td>
+               <td>lci2025055@iiit.ac.in</td>
+             </tr>
+           </tbody>
+         </table>
       </div>
-      <button class="btn btn-lg btn-dark mt-3 px-5" type="submit">Register</button>
-     </form>
+     </div>
 
-     <!-- User Data Table -->
-      <h2 class="mt-5">User Data Table</h2>
-      <table class="table table-dark table-striped mb-5">
-        <thead>
-          <tr>
-            <th>User Id</th>
-            <th>Name</th>
-            <th>Email</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>101</td>
-            <td>Ewan</td>
-            <td>lci2025011@iiit.ac.in</td>
-          </tr>
-          <tr>
-            <td>102</td>
-            <td>Kunal</td>
-            <td>lci2025006@iiit.ac.in</td>
-          </tr>
-          <tr>
-            <td>103</td>
-            <td>Devesh</td>
-            <td>lci2025005@iiit.ac.in</td>
-          </tr>
-          <tr>
-            <td>104</td>
-            <td>Ayush</td>
-            <td>lci2025055@iiit.ac.in</td>
-          </tr>
-        </tbody>
-      </table>
   </div>
 
   <!-- Footer -->
