@@ -1,150 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>L3</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read-it - Popular Books</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-lg py-3 border-bottom">
-      <a href="#" class="navbar-brand"><h3 class="black">PROJECT-L3</h3></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="#" class="nav-link active" aria-current="page">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Register</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Services</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Main Content -->
-  <div class="container-lg">
-    <!-- Carousel -->
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner rounded">
-        <div class="carousel-item active">
-          <img src="./Public/images/car1.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="...">
-
-          <div class="carousel-caption text-start">
-            <h1>ML Wing</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolorum omnis placeat quo accusamus neque numquam architecto officia! Aliquam quibusdam consequatur maiores quas dolores sit dolorum explicabo iste earum quam.</p>
-          </div>
-          
+    <header class="header">
+        <div class="logo">Read-it</div>
+        <nav class="nav">
+            <a href="./index.html">Home</a>
+            <a href="./categories.html">Categories</a>
+            <a href="./users.html">Users</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+            <button><i class="fas fa-search"></i></button>
         </div>
-        <div class="carousel-item">
-          <img src="./Public/images/car2.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="...">
+    </header>
+<!-- Carousel -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img
+              src="https://c4.wallpaperflare.com/wallpaper/44/888/946/abandoned-house-haunted-moonlight-night-wallpaper-preview.jpg"
+              class="d-block w-100"
+              style="height: 600px; object-fit: cover"
+              alt="..."
+            />
 
-          <div class="carousel-caption text-start">
-            <h1>Hello</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolorum omnis placeat quo accusamus neque numquam architecto officia! Aliquam quibusdam consequatur maiores quas dolores sit dolorum explicabo iste earum quam.</p>
+            <div class="carousel-caption text-start">
+              <h1>Discover Your Next Favorite Read</h1>
+
+              <ul>
+                <li>
+                  Explore thousands of titles across every genre — from timeless
+                  classics to trending hits.
+                </li>
+                <li>
+                  Find books that spark your imagination and keep you turning
+                  pages.
+                </li>
+                <li>every great story starts with the right book.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJvb2t8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900"
+              class="d-block w-100"
+              style="height: 600px; object-fit: cover"
+              alt="..."
+            />
+
+            <div class="carousel-caption text-start">
+              <h1>Join Our Community of Book Lovers</h1>
+
+              <ul>
+                <li>Create your account and build your personal bookshelf.</li>
+                <li>
+                  Rate,review, and share your favorite books with other readers.
+                </li>
+                <li>
+                  Be part of a growing community that celebrates the joy of
+                  reading.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=900"
+              class="d-block w-100"
+              style="height: 600px; object-fit: cover"
+              alt="..."
+            />
+
+            <div class="carousel-caption text-start">
+              <h1>Exclusive Deals for Avid Readers</h1>
+
+              <ul>
+                <li>Save big on bestsellers and new releases every week!</li>
+                <li>
+                  Enjoy discounts up to 50% off — only for our online readers.
+                </li>
+                <li>The more you read, the more you save.</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="./Public/images/car3.jpg" class="d-block w-100" style="height: 600px; object-fit: cover;" alt="...">
-          
-          <div class="carousel-caption text-start">
-            <h1>Hello</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga dolorum omnis placeat quo accusamus neque numquam architecto officia! Aliquam quibusdam consequatur maiores quas dolores sit dolorum explicabo iste earum quam.</p>
-          </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <section class="popular-books">
+        <h2>Popular Books</h2>
+        <div class="book-grid">
+
+            <div class="book-card">
+                <div class="book-cover-container">
+                    <img src="https://m.media-amazon.com/images/I/81JJPDNlxSL.jpg" alt="The Silent Patient Book Cover" class="book-cover">
+                </div>
+                <div class="book-details">
+                    <h3>The Silent Patient</h3>
+                    <p class="author">By A. R. Michael</p>
+                    <p class="description">Alicia Berenson's life is perfect. A famous painter married to an in-demand fashion photographer, she lives in a grand house with big windows overlooking a park.</p>
+                    <div class="price-actions">
+                        <span class="price">Rs. 499</span>
+                        <div class="actions">
+                            <button class="btn-buy">Buy Now</button>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover-container">
+                    <img src="https://peterviney.com/wp-content/uploads/2014/03/movies-the-book-thief-poster.jpg?w=640" alt="The Book Thief Book Cover" class="book-cover">
+                </div>
+                <div class="book-details">
+                    <h3>The Book Thief</h3>
+                    <p class="author">By Markus Zusak</p>
+                    <p class="description">It is 1939. Nazi Germany. The country is holding its breath. Death has never been busier, and will become busier still.</p>
+                    <div class="price-actions">
+                        <span class="price">Rs. 525</span>
+                        <div class="actions">
+                            <button class="btn-buy">Buy Now</button>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVOxTXfDcbelCkf-z3Sojx-U8I7fv8vKsvuw&s" alt="Atomic Habits Book Cover" class="book-cover">
+                </div>
+                <div class="book-details">
+                    <h3>Atomic Habits</h3>
+                    <p class="author">By James Clear</p>
+                    <p class="description">Tiny Changes, Remarkable Results. An easy and proven way to build good habits and break bad ones.</p>
+                    <div class="price-actions">
+                        <span class="price">Rs. 395</span>
+                        <div class="actions">
+                            <button class="btn-buy">Buy Now</button>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-card">
+                <div class="book-cover-container">
+                    <img src="https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg" alt="Harry Potter Vol-1 Book Cover" class="book-cover">
+                </div>
+                <div class="book-details">
+                    <h3>Harry Potter Vol-1</h3>
+                    <p class="author">By J. K. Rowling</p>
+                    <p class="description">Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling.</p>
+                    <div class="price-actions">
+                        <span class="price">Rs. 699</span>
+                        <div class="actions">
+                            <button class="btn-buy">Buy Now</button>
+                            <button class="btn-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </section>
 
-    <div class="row">
-      <div class="col-lg-4">
-        <!-- User Registration Form -->
-        <h3 class="mt-5">User Registration Form</h3>
-        <form action="" class="mb-5" novalidate>
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingName" placeholder="Name" required>
-            <label for="floatingName">Name</label>
-            <div class="invalid-feedback">Invalid Name</div>
-          </div>
-         <div class="form-floating mb-3">
-           <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
-           <label for="floatingEmail">Email address</label>
-           <div class="invalid-feedback">Invalid Email</div>
-         </div>
-         <div class="form-floating">
-           <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
-           <label for="floatingPassword">Password</label>
-           <div class="invalid-feedback">Invalid Password</div>
-         </div>
-         <button class="btn btn-lg btn-dark mt-3 px-5" type="submit">Register</button>
-        </form>
-      </div>
-      <div class="col">
-        <!-- User Data Table -->
-         <h3 class="mt-5">User Data Table</h3>
-         <table class="table table-dark table-striped mb-5">
-           <thead>
-             <tr>
-               <th>User Id</th>
-               <th>Name</th>
-               <th>Email</th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td>101</td>
-               <td>Ewan</td>
-               <td>lci2025011@iiit.ac.in</td>
-             </tr>
-             <tr>
-               <td>102</td>
-               <td>Kunal</td>
-               <td>lci2025006@iiit.ac.in</td>
-             </tr>
-             <tr>
-               <td>103</td>
-               <td>Devesh</td>
-               <td>lci2025005@iiit.ac.in</td>
-             </tr>
-             <tr>
-               <td>104</td>
-               <td>Ayush</td>
-               <td>lci2025055@iiit.ac.in</td>
-             </tr>
-           </tbody>
-         </table>
-      </div>
-     </div>
+    <footer class="footer">
+        <p>&copy; 2025 Read-it All Rights Reserved</p>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <span class="separator">|</span>
+            <a href="#">Privacy</a>
+            <span class="separator">|</span>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./script.js"></script>
 
-  </div>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container py-3 border-top">
-      <p class="text-center">&copy; Copyrights reserved <span id="year"></span></p>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="./script.js"></script>
 </body>
 </html>
